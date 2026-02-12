@@ -21,11 +21,15 @@ const Hero = () => {
             {/* typewrite effect */}
             <div className="text-xl sm:text-2xl md:text-3xl text-black dark:text-white font-semibold mb-4 sm:mb-8 h-12">
                 <TypeAnimation sequence={[
-                    "MERN Stack Developer",
+                    "Front-end web Developer",
+                    2000,
+                    "Back-end web Developer",
+                    2000,
+                    "Wordpress",
                     2000,
                     "Tech Instructor",
                     2000,
-                    "Open source Contributor",
+                    "Blog Creator",
                     2000,
                 ]} 
                 wrapper="span"
@@ -46,7 +50,7 @@ const Hero = () => {
                         View Projects
                     </a>
                 </Button>
-                                <Button size={"lg"} asChild className="w-fit mx-auto sm:mx-0">
+                <Button size={"lg"} asChild className="w-fit mx-auto sm:mx-0">
                     <a href="#_">
                         <Download className="w-5 h-5 mr-2 " />
                         Download CV
