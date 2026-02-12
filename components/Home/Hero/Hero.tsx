@@ -36,7 +36,7 @@ const Hero = () => {
             </div>
             {/* Description */}
             <p className="text-lg text-muted-foreground dark:text-gray-200 max-w-2xl mx-auto mb-10">
-                As a dedicated technology enthusiast, I specialize in crafting exceptional digital experiences using modern technologies. With a focus on building scalable, high-performance applications, I am passionate about leveraging innovative solutions to drive business growth. Additionally, I am committed to sharing my knowledge by teaching and mentoring others in the field, fostering a collaborative learning environment.
+                Passionate about creating scalable digital solutions with modern technologies. Experienced in building high-performance applications and dedicated to teaching others in the field.
             </p>
             {/* buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
