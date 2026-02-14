@@ -14,7 +14,7 @@ const About = () => {
                 <div className='aspect-square rounded-2xl overflow-hidden p-2'>
                     
                     <Image 
-                        src={'/images/user.jpg'}
+                        src={'/images/user.png'}
                         alt="profile"
                         width={700}
                         height={700}
