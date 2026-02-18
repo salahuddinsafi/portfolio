@@ -28,6 +28,9 @@ const Experience = () => {
                                         )
                                     
                                         }
+                                        <div className='ml-16 md:ml-0 md:w-[calc(50%-2rem)]'>
+                                            <div className='bg-white dark:bg-gray-900 shadow-md reounded-xl'></div>
+                                        </div>
                                     </div>
                             </div>
                         )
