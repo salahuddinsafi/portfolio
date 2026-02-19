@@ -4,7 +4,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className='py-6 bg-gray-100 dark:bg-gray-950'>
-        <SectionHeading title_1='Get in' title_2='Touch' description="Have a project in mind or just want to say hi? I'd love to hear from you." />\
+        <SectionHeading title_1='Get in' title_2='Touch' description="Have a project in mind or just want to say hi? I'd love to hear from you." />
         <div className='w-[80%] mx-auto'>
             <div className='grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto'>
                 {/* Contact info */}
