@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { techStack } from '@/data';
+// import { techStack } from '@/data';
 import { Button } from '@/components/ui/button';
 import {ExternalLink} from 'lucide-react';
 import { FaGithub } from 'react-icons/fa6';
