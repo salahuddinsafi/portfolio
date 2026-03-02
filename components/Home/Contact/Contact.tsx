@@ -1,5 +1,6 @@
-import SectionHeading from '@/components/Helper/SectionHeading'
-import React from 'react'
+import SectionHeading from '@/components/Helper/SectionHeading';
+import React from 'react';
+import { contactInfo } from '@/data';
 
 const Contact = () => {
   return (
@@ -16,7 +17,13 @@ const Contact = () => {
                         </p>
                     </div>
                     <div className='space-y-4 '>
-
+                        {
+                            contactInfo.map((item) => {
+                                return (
+                                    <a href={item.href} key={item.label} target='_blank' className="flex items-center gap-4 p-4 bg-white dark:bg-gray-800 shadow-md rounded-xl hover:scale-105 transition-all duration-300 group"></a>
+                                )
+                            })
+                        }
                     </div>
                 </div>
             </div>
